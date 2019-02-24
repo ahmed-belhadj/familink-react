@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react';
-import { Navbar, Button } from 'reactstrap';
+import { Navbar, NavbarBrand, Button } from 'reactstrap';
 
 class App extends Component {
   goTo(route) {
-    this.props.history.replace(`/${route}`)
+    this.props.history.replace(`/${route}`);
   }
 
   login() {
@@ -29,10 +29,9 @@ class App extends Component {
     return (
       <div>
         <Navbar fluid>
-          <Navbar.Header>
-            <Navbar.Brand>
+            <NavbarBrand>
               <a href="#">Auth0 - React</a>
-            </Navbar.Brand>
+            </NavbarBrand>
             <Button
               bsStyle="primary"
               className="btn-margin"
@@ -62,7 +61,6 @@ class App extends Component {
                   </Button>
                 )
             }
-          </Navbar.Header>
         </Navbar>
       </div>
     );
