@@ -4,8 +4,7 @@ import {createBrowserHistory} from "history";
 import {Router, Route, Switch} from "react-router-dom";
 import App from "App";
 import Auth from './auth/Auth';
-import Callback from "./callback/Callback";
-import Dashboard from "./layouts/Dashboard/Dashboard";
+import Dashboard from "./layouts/Dashboard/Dashboard.jsx";
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -29,7 +28,8 @@ ReactDOM.render(
             <Route path="/dashboard" render={(props) => <Dashboard {...props} />} />
             <Route path="/callback" render={(props) => {
                 handleAuthentication(props);
-                return <Callback {...props} />;
+                hist.replace('/dashboard');
+                return <Dashboard {...props} />;
             }}/>
         </Switch>
     </Router>,

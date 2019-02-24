@@ -1,8 +1,6 @@
 import React from 'react';
 import {Provider, Heading, Subhead} from 'rebass';
-import {
-    Hero, CallToAction, ScrollDownIndicator, Section, Checklist
-} from 'react-landing-page';
+import { Hero, CallToAction, ScrollDownIndicator, Section, Checklist } from 'react-landing-page';
 
 const featherCheckmark = <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +20,7 @@ const Landing = props => (
         <Hero
             color="black"
             bg="white"
-            backgroundImage="https://source.unsplash.com/REKXJ7JhwiI/1600x900"
+            backgroundImage="https://source.unsplash.com/8wClLnwbNkc/1600x900"
         >
             <Heading>FamiLink</Heading>
             <Subhead>Linking Family History Data through Blockchain</Subhead>
