@@ -1,0 +1,480 @@
+{
+  "data": [
+    [
+      {
+        "name": "Sarah",
+        "relationship": "Self",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 3,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Charles",
+        "relationship": "Brother",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Father",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sherry",
+        "relationship": "Mother",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 70,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sam",
+        "relationship": "Son",
+        "living": false,
+        "disease": "Cancer: Leukemia",
+        "ageOfOnset": 4,
+        "ageOfDeath": 7
+      },
+      {
+        "name": "Gerald",
+        "relationship": "Paternal Grandfather",
+        "living": false,
+        "disease": "Clotting Disorder: Deep Vein Thrombosis",
+        "ageOfOnset": 71,
+        "ageOfDeath": 71
+      },
+      {
+        "name": "Edna",
+        "relationship": "Paternal Grandmother",
+        "living": false,
+        "disease": "Cancer: Stomach",
+        "ageOfOnset": 77,
+        "ageOfDeath": 78
+      },
+      {
+        "name": "Caroline",
+        "relationship": "Maternal Grandfather",
+        "living": false,
+        "disease": "Heart Attack",
+        "ageOfOnset": 51,
+        "ageOfDeath": 51
+      },
+      {
+        "name": "Fred",
+        "relationship": "Maternal Grandfather",
+        "living": true,
+        "disease": "Cancer: Thyroid",
+        "ageOfOnset": 60,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sally",
+        "relationship": "Maternal Aunt",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "George",
+        "relationship": "Maternal Cousin",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      }
+    ],
+    [
+      {
+        "name": "Sam",
+        "relationship": "Self",
+        "living": false,
+        "disease": "Cancer: Leukemia",
+        "ageOfOnset": 5,
+        "ageOfDeath": 7
+      },
+      {
+        "name": "Charles",
+        "relationship": "Father",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Jennifer",
+        "relationship": "Mother",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sarah",
+        "relationship": "Aunt",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 3,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Paternal Grandfather",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sherry",
+        "relationship": "Paternal Grandfather",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 70,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Gerald",
+        "relationship": "Paternal Great Grandfather",
+        "living": false,
+        "disease": "Stroke",
+        "ageOfOnset": 71,
+        "ageOfDeath": 71
+      },
+      {
+        "name": "Edna",
+        "relationship": "Paternal Great Grandmother",
+        "living": false,
+        "disease": "Cancer: Pancreas",
+        "ageOfOnset": 77,
+        "ageOfDeath": 79
+      },
+      {
+        "name": "Caroline",
+        "relationship": "Maternal Great Grandfather",
+        "living": false,
+        "disease": "Heart Disease: Aortic Dissection",
+        "ageOfOnset": 51,
+        "ageOfDeath": 51
+      },
+      {
+        "name": "Fred",
+        "relationship": "Maternal Great Grandfather",
+        "living": true,
+        "disease": "Cancer: Neck",
+        "ageOfOnset": 60,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sally",
+        "relationship": "Maternal Great Aunt",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "George",
+        "relationship": "Maternal Second Cousin",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      }
+    ],
+    [
+      {
+        "name": "Sherry",
+        "relationship": "Self",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 59,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Charles",
+        "relationship": "Son",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sarah",
+        "relationship": "Daughter",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 3,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Husband",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sam",
+        "relationship": "Son",
+        "living": false,
+        "disease": "Cancer: Leukemia",
+        "ageOfOnset": 5,
+        "ageOfDeath": 7
+      },
+      {
+        "name": "Caroline",
+        "relationship": "Father",
+        "living": false,
+        "disease": "Heart Disease: Aortic Dissection",
+        "ageOfOnset": 51,
+        "ageOfDeath": 51
+      },
+      {
+        "name": "Fred",
+        "relationship": "Father",
+        "living": true,
+        "disease": "Cancer: Thyroid",
+        "ageOfOnset": 60,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sally",
+        "relationship": "Sister",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "George",
+        "relationship": "Niece",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      }
+    ],
+    [
+      {
+        "name": "Charles",
+        "relationship": "Grandson",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sarah",
+        "relationship": "Granddaughter",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 3,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Son",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sherry",
+        "relationship": "Daughter-in-law",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 70,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sam",
+        "relationship": "Great Grandson",
+        "living": false,
+        "disease": "Cancer: Leukemia",
+        "ageOfOnset": 5,
+        "ageOfDeath": 7
+      },
+      {
+        "name": "Gerald",
+        "relationship": "Self",
+        "living": false,
+        "disease": "Clotting Disorder: Deep Vein Thrombosis",
+        "ageOfOnset": 71,
+        "ageOfDeath": 71
+      },
+      {
+        "name": "Edna",
+        "relationship": "Wife",
+        "living": false,
+        "disease": "Cancer: Stomach",
+        "ageOfOnset": 77,
+        "ageOfDeath": 80
+      }
+    ],
+    [
+      {
+        "name": "Charles",
+        "relationship": "Maternal Cousin",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sarah",
+        "relationship": "Maternal Cousin",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 2,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Maternal Uncle (husband of Sherry)",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sherry",
+        "relationship": "Maternal Aunt",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 70,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Caroline",
+        "relationship": "Maternal Grandfather",
+        "living": false,
+        "disease": "Heart Disease: Aortic Dissection",
+        "ageOfOnset": 51,
+        "ageOfDeath": 51
+      },
+      {
+        "name": "Fred",
+        "relationship": "Maternal Grandfather",
+        "living": true,
+        "disease": "Cancer: Thyroid",
+        "ageOfOnset": 59,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sally",
+        "relationship": "Mother",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "George",
+        "relationship": "Self",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      }
+    ],
+    [
+      {
+        "name": "Charles",
+        "relationship": "Self",
+        "living": true,
+        "disease": "Diabetes: Type 2",
+        "ageOfOnset": 44,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sarah",
+        "relationship": "Sister",
+        "living": true,
+        "disease": "Diabetes: Type 1",
+        "ageOfOnset": 3,
+        "ageOfDeath": null
+      },
+      {
+        "name": "John",
+        "relationship": "Father",
+        "living": false,
+        "disease": "Cancer: Bone Cancer",
+        "ageOfOnset": 58,
+        "ageOfDeath": 32
+      },
+      {
+        "name": "Sherry",
+        "relationship": "Mother",
+        "living": true,
+        "disease": "Hypertension",
+        "ageOfOnset": 59,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sam",
+        "relationship": "Son",
+        "living": false,
+        "disease": "Cancer: Leukemia",
+        "ageOfOnset": 5,
+        "ageOfDeath": 7
+      },
+      {
+        "name": "Gerald",
+        "relationship": "Paternal Grandfather",
+        "living": false,
+        "disease": "Clotting Disorder: Deep Vein Thrombosis",
+        "ageOfOnset": 71,
+        "ageOfDeath": 71
+      },
+      {
+        "name": "Edna",
+        "relationship": "Paternal Grandmother",
+        "living": false,
+        "disease": "Cancer: Stomach",
+        "ageOfOnset": 77,
+        "ageOfDeath": 78
+      },
+      {
+        "name": "Caroline",
+        "relationship": "Maternal Grandfather",
+        "living": false,
+        "disease": "Heart Disease: Aortic Dissection",
+        "ageOfOnset": 51,
+        "ageOfDeath": 51
+      },
+      {
+        "name": "Fred",
+        "relationship": "Maternal Grandfather",
+        "living": true,
+        "disease": "Cancer: Thyroid",
+        "ageOfOnset": 60,
+        "ageOfDeath": null
+      },
+      {
+        "name": "Sally",
+        "relationship": "Maternal Aunt",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      },
+      {
+        "name": "George",
+        "relationship": "Maternal Cousin",
+        "living": true,
+        "disease": null,
+        "ageOfOnset": null,
+        "ageOfDeath": null
+      }
+    ]
+  ]
+}
