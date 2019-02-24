@@ -4,9 +4,9 @@ export default class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({
       // the following three lines MUST be updated
-      domain: '<AUTH0_DOMAIN>',
-      audience: 'https://<AUTH0_DOMAIN>/userinfo',
-      clientID: '<AUTH0_CLIENT_ID>',
+      domain: process.env.AUTH0_DOMAIN,
+      audience: `https://${process.env.AUTH0_DOMAIN}/userinfo`,
+      clientID: process.env.AUTH0_CLIENT_ID,
       redirectUri: 'http://localhost:3000/callback',
       responseType: 'token id_token',
       scope: 'openid profile'
