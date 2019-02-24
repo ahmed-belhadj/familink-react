@@ -29,10 +29,10 @@ class App extends Component {
         return (
             <div>
                 <Navbar color="dark" light expand="md">
-                    <NavbarBrand href="">Auth0 - React</NavbarBrand>
+                    <NavbarBrand href="" className="flex-grow-1">Auth0 - React</NavbarBrand>
                     <Button
                         bsstyle="primary"
-                        className="btn-margin"
+                        className="btn-margin mr-auto"
                         onClick={this.goTo.bind(this, 'home')}
                     >
                         Home
@@ -41,7 +41,7 @@ class App extends Component {
                         !isAuthenticated() && (
                             <Button
                                 bsstyle="primary"
-                                className="btn-margin"
+                                className="btn-margin mr-auto"
                                 onClick={this.login.bind(this)}
                             >
                                 Log In
@@ -52,7 +52,7 @@ class App extends Component {
                         isAuthenticated() && (
                             <Button
                                 bsStyle="primary"
-                                className="btn-margin"
+                                className="btn-margin mr-auto"
                                 onClick={this.logout.bind(this)}
                             >
                                 Log Out
