@@ -11,17 +11,18 @@ import PatientDemo from "views/PatientDemo/PatientDemo";
 
 
 var dashRoutes = [
-    {
-        path: "/dashboard/user-page",
-        name: "Profile",
-        icon: "nc-icon nc-single-02",
-        component: UserPage
-    },
+
     {
         path: "/dashboard/notifications",
         name: "Notifications",
         icon: "nc-icon nc-bell-55",
         component: Notifications
+    },
+    {
+        path: "/dashboard/user-page",
+        name: "Profile Demo",
+        icon: "nc-icon nc-single-02",
+        component: UserPage
     },
     {
         path: "/dashboard/patient-demo",
@@ -42,12 +43,12 @@ var dashRoutes = [
     //   icon: "nc-icon nc-bank",
     //   component: Dashboard
     // },
-    {
-        path: "/dashboard/icons",
-        name: "Icons",
-        icon: "nc-icon nc-diamond",
-        component: Icons
-    },
+    // {
+    //     path: "/dashboard/icons",
+    //     name: "Icons",
+    //     icon: "nc-icon nc-diamond",
+    //     component: Icons
+    // },
     // { path: "/dashboard/maps", name: "Maps", icon: "nc-icon nc-pin-3", component: Maps },
     // {
     //   path: "/dashboard/notifications",
@@ -61,12 +62,12 @@ var dashRoutes = [
     //   icon: "nc-icon nc-single-02",
     //   component: UserPage
     // },
-    {
-        path: "/dashboard/tables",
-        name: "Table List",
-        icon: "nc-icon nc-tile-56",
-        component: TableList
-    },
+    // {
+    //     path: "/dashboard/tables",
+    //     name: "Table List",
+    //     icon: "nc-icon nc-tile-56",
+    //     component: TableList
+    // },
     // {
     //   path: "/dashboard/typography",
     //   name: "Typography",
