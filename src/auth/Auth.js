@@ -14,7 +14,7 @@ export default class Auth {
         this.auth0 = new auth0.WebAuth({
             domain: domain,
             clientID: clientId,
-            rredirectUri: 'http://localhost:3000/callback',
+            redirectUri: 'http://localhost:3000/callback',
             responseType: 'token id_token',
             scope: 'openid'
         });
@@ -71,7 +71,7 @@ export default class Auth {
     this.scheduleRenewal();
 
     // navigate to the home route
-    history.replace('/home');
+    history.replace('/');
   }
 
   renewSession() {
@@ -113,7 +113,7 @@ export default class Auth {
     clearTimeout(this.tokenRenewalTimeout);
 
     // navigate to the home route
-    history.replace('/home');
+    history.replace('/');
   }
 
   isAuthenticated() {
