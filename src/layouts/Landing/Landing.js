@@ -26,7 +26,7 @@ const Landing = props => (
         >
             <Heading>FamiLink</Heading>
             <Subhead>Linking Family History Data through Blockchain</Subhead>
-            <CallToAction href="/getting-started" mt={3}>Get Started</CallToAction>
+            <CallToAction href="/dashboard" mt={3}>Get Started</CallToAction>
             <ScrollDownIndicator/>
         </Hero>
         <Section width={1}
