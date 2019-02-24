@@ -5,6 +5,7 @@ export default class Auth {
     accessToken;
     idToken;
     expiresAt;
+    tokenRenewalTimeout;
 
     constructor() {
         const domain = 'familink.auth0.com/',
@@ -27,6 +28,9 @@ export default class Auth {
         this.getAccessToken = this.getAccessToken.bind(this);
         this.getIdToken = this.getIdToken.bind(this);
         this.renewSession = this.renewSession.bind(this);
+
+        // schedule a token renewal
+        this.scheduleRenewal();
   }
 
   getProfile() {
@@ -53,7 +57,6 @@ export default class Auth {
     return this.idToken;
   }
 
-
   setSession(authResult) {
     // Set isLoggedIn flag in localStorage
     localStorage.setItem('isLoggedIn', 'true');
@@ -63,6 +66,9 @@ export default class Auth {
     this.accessToken = authResult.accessToken;
     this.idToken = authResult.idToken;
     this.expiresAt = expiresAt;
+
+    // schedule a token renewal
+    this.scheduleRenewal();
 
     // navigate to the home route
     history.replace('/home');
@@ -80,6 +86,20 @@ export default class Auth {
     });
   }
 
+  scheduleRenewal() {
+    let expiresAt = this.expiresAt;
+    const timeout = expiresAt - Date.now();
+    if (timeout > 0) {
+      this.tokenRenewalTimeout = setTimeout(() => {
+        this.renewSession();
+      }, timeout);
+    }
+  }
+
+  getExpiryDate() {
+    return JSON.stringify(new Date(this.expiresAt));
+  }
+
   logout() {
     // Remove tokens and expiry time
     this.accessToken = null;
@@ -88,6 +108,9 @@ export default class Auth {
 
     // Remove isLoggedIn flag from localStorage
     localStorage.removeItem('isLoggedIn');
+
+    // Clear token renewal
+    clearTimeout(this.tokenRenewalTimeout);
 
     // navigate to the home route
     history.replace('/home');
