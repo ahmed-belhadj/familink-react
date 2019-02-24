@@ -6,7 +6,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+// import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 
@@ -70,12 +70,12 @@ class Dashboard extends React.Component {
           </Switch>
           <Footer fluid />
         </div>
-        <FixedPlugin
-          bgColor={this.state.backgroundColor}
-          activeColor={this.state.activeColor}
-          handleActiveClick={this.handleActiveClick}
-          handleBgClick={this.handleBgClick}
-        />
+        {/*<FixedPlugin*/}
+          {/*bgColor={this.state.backgroundColor}*/}
+          {/*activeColor={this.state.activeColor}*/}
+          {/*handleActiveClick={this.handleActiveClick}*/}
+          {/*handleBgClick={this.handleBgClick}*/}
+        {/*/>*/}
       </div>
     );
   }
