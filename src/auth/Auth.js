@@ -2,11 +2,14 @@ import auth0 from 'auth0-js';
 
 export default class Auth {
   constructor() {
+    const domain = 'http://familink.auth0.com/',
+          clientId = 'uy5FOqsRDTpLBj20zosqyBB16Cr9Mmvr';
+
     this.auth0 = new auth0.WebAuth({
       // the following three lines MUST be updated
-      domain: process.env.AUTH0_DOMAIN,
-      audience: `https://${process.env.AUTH0_DOMAIN}/userinfo`,
-      clientID: process.env.AUTH0_CLIENT_ID,
+      domain: domain,
+      audience: `https://${domain}/userinfo`,
+      clientID: clientId,
       redirectUri: 'http://localhost:3000/callback',
       responseType: 'token id_token',
       scope: 'openid profile'
