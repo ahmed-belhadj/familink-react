@@ -3,7 +3,6 @@ import React from 'react';
 import {withRouter} from 'react-router';
 import {Route} from 'react-router-dom';
 import Callback from './callback/Callback';
-import './App.css';
 
 function HomePage(props) {
   const {authenticated} = props;
