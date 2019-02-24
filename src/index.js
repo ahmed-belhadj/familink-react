@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import {createBrowserHistory} from "history";
 import {Router, Route, Switch} from "react-router-dom";
 import Auth from './auth/Auth';
-import App from './App';
 
 import "bootstrap/dist/css/bootstrap.css";
 import "assets/scss/paper-dashboard.scss";
@@ -16,14 +15,12 @@ const hist = createBrowserHistory();
 
 ReactDOM.render(
     <Router history={hist}>
-    
-        {/* <Switch>
+        <Switch>
             {indexRoutes.map((prop, key) => {
                 return <Route path={prop.path} key={key} component={prop.component}/>;
             })}
-        </Switch> */}
-        
-        <App auth={auth} />
+            <Route path="/login" component={auth} />
+        </Switch>
     </Router>,
     document.getElementById("root")
 );
