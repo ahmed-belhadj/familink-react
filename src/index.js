@@ -23,7 +23,7 @@ const handleAuthentication = ({location}) => {
 ReactDOM.render(
     <Router history={hist}>
         <Switch>
-            <Route path="/" render={(props) => <App auth={auth} {...props} />}/>
+            <Route exact path="/" render={(props) => <App auth={auth} {...props} />}/>
             <Route path="/home" render={(props) => <App auth={auth} {...props} />}/>
             <Route path="/dashboard" render={(props) => <Dashboard {...props} />} />
             <Route path="/callback" render={(props) => {
