@@ -23,7 +23,7 @@ const Landing = props => (
             backgroundImage="https://source.unsplash.com/8wClLnwbNkc/1600x900"
         >
             <Heading>FamiLink</Heading>
-            <Subhead>Linking Family History Data through Blockchain</Subhead>
+            <Subhead>Linking Family History Data through the Ethereum Blockchain</Subhead>
             <CallToAction href="/dashboard" mt={3}>Get Started</CallToAction>
             <ScrollDownIndicator/>
         </Hero>
