@@ -68,7 +68,7 @@ export default class Auth {
         this.scheduleRenewal();
 
         // navigate to the home route
-        history.replace('/home');
+        history.replace('/dashboard');
     }
 
     renewSession() {
