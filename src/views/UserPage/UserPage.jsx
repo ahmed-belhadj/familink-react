@@ -42,7 +42,7 @@ class User extends React.Component {
                       <h5>
                         12
                         <br/>
-                        <small>Files</small>
+                        <small>Records</small>
                       </h5>
                     </Col>
                     <Col xs={6} sm={6} md={6} lg={4} className="mr-auto ml-auto">
@@ -54,9 +54,9 @@ class User extends React.Component {
                     </Col>
                     <Col lg={3} className="mr-auto">
                       <h5>
-                        24,6$
+                        $24.60
                         <br/>
-                        <small>Spent</small>
+                        <small>Balance</small>
                       </h5>
                     </Col>
                   </Row>
@@ -65,7 +65,7 @@ class User extends React.Component {
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Team Members</CardTitle>
+                <CardTitle tag="h4">Family Members</CardTitle>
               </CardHeader>
               <CardBody>
                 <ul className="list-unstyled team-members">
