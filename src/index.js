@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {createBrowserHistory} from "history";
 import {Router, Route, Switch} from "react-router-dom";
-import Auth from './Auth/Auth';
+import Auth from './auth/Auth';
 import App from './App';
 
 import "bootstrap/dist/css/bootstrap.css";
