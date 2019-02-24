@@ -15,19 +15,19 @@ class Footer extends React.Component {
             <nav className="footer-nav">
               <ul>
                 <li>
-                  <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>
+                  <a href="/" target="_blank">FamiLink</a>
                 </li>
                 <li>
-                  <a href="https://blog.creative-tim.com" target="_blank">Blog</a>
+                  <a href="https://github.com/fami-link" target="_blank">GitHub</a>
                 </li>
                 <li>
-                  <a href="https://www.creative-tim.com/license" target="_blank">Licenses</a>
+                  <a href="https://github.com/fami-link/familink-react/blob/master/LICENSE" target="_blank">License</a>
                 </li>
               </ul>
             </nav>
             <div className="credits ml-auto">
               <div className="copyright">
-                &copy; {1900 + new Date().getYear()}, made with <i className="fa fa-heart heart"></i> by Creative Tim
+                &copy; {1900 + new Date().getYear()}, made with <i className="fa fa-heart heart"></i> by FamiLink
               </div>
             </div>
           </Row>
