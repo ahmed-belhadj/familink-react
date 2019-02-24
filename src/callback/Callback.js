@@ -1,16 +1,15 @@
-import React from 'react';
-import { withRouter } from 'react-router';
+import React, { Component } from 'react';
+import loading from './loading.svg';
 
-function Callback(props) {
-  props.auth.handleAuthentication().then(() => {
-    props.history.push('/');
-  });
+class Callback extends Component {
+  render() {
 
-  return (
-    <div>
-      Loading user profile.
-    </div>
-  );
+    return (
+      <div>
+        <img src={loading} alt="loading"/>
+      </div>
+    );
+  }
 }
 
-export default withRouter(Callback);
+export default Callback;

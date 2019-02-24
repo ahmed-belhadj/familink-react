@@ -16,11 +16,12 @@ const hist = createBrowserHistory();
 
 ReactDOM.render(
     <Router history={hist}>
-        <Switch>
+    
+        {/* <Switch>
             {indexRoutes.map((prop, key) => {
                 return <Route path={prop.path} key={key} component={prop.component}/>;
             })}
-        </Switch>
+        </Switch> */}
         
         <App auth={auth} />
     </Router>,
