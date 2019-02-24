@@ -11,7 +11,6 @@ export default class Auth {
             clientId = 'uy5FOqsRDTpLBj20zosqyBB16Cr9Mmvr';
 
         this.auth0 = new auth0.WebAuth({
-            // the following three lines MUST be updated
             domain: domain,
             clientID: clientId,
             rredirectUri: 'http://localhost:3000/callback',

@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div>
         <Navbar color="dark" light expand="md">
-            <NavbarBrand href="">Auth0 - Reac</NavbarBrand>
+            <NavbarBrand href="">Auth0 - React</NavbarBrand>
             <Button
               bsstyle="primary"
               className="btn-margin"
