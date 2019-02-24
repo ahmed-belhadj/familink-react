@@ -44,12 +44,5 @@ var dashRoutes = [
     icon: "nc-icon nc-caps-small",
     component: Typography
   },
-  // {
-  //   pro: true,
-  //   path: "/upgrade",
-  //   name: "Upgrade to PRO",
-  //   icon: "nc-icon nc-spaceship"
-  // }
-  //{ redirect: true, path: "/", pathTo: "/dashboard", name: "Dashboard" }
 ];
 export default dashRoutes;
