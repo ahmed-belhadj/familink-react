@@ -28,12 +28,10 @@ class App extends Component {
 
     return (
       <div>
-        <Navbar fluid>
-            <NavbarBrand>
-              <a href="#">Auth0 - React</a>
-            </NavbarBrand>
+        <Navbar color="dark" light expand="md">
+            <NavbarBrand href="">Auth0 - Reac</NavbarBrand>
             <Button
-              bsStyle="primary"
+              bsstyle="primary"
               className="btn-margin"
               onClick={this.goTo.bind(this, 'home')}
             >
@@ -42,7 +40,7 @@ class App extends Component {
             {
               !isAuthenticated() && (
                   <Button
-                    bsStyle="primary"
+                    bsstyle="primary"
                     className="btn-margin"
                     onClick={this.login.bind(this)}
                   >

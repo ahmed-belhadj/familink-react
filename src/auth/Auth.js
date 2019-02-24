@@ -7,17 +7,16 @@ export default class Auth {
     expiresAt;
 
     constructor() {
-        const domain = 'http://familink.auth0.com/',
+        const domain = 'familink.auth0.com/',
             clientId = 'uy5FOqsRDTpLBj20zosqyBB16Cr9Mmvr';
 
         this.auth0 = new auth0.WebAuth({
-        // the following three lines MUST be updated
-        domain: domain,
-        audience: `https://${domain}/userinfo`,
-        clientID: clientId,
-        redirectUri: 'http://localhost:3000/callback',
-        responseType: 'token id_token',
-        scope: 'openid profile'
+            // the following three lines MUST be updated
+            domain: domain,
+            clientID: clientId,
+            rredirectUri: 'http://localhost:3000/callback',
+            responseType: 'token id_token',
+            scope: 'openid'
         });
 
         this.getProfile = this.getProfile.bind(this);
